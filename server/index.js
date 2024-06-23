@@ -8,7 +8,7 @@ const uploadRouter = require("./src/routes/upload");
 
 // Variables
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 // Middlewares
 app.use(express.json());
