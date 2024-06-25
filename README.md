@@ -6,6 +6,7 @@
 This project is a YouTube clone implemented using HTML, CSS, and JavaScript. The goal of this project is to recreate the basic functionality and design of the popular video-sharing platform YouTube. This clone will allow users to view videos, search for videos, play videos, and interact with the user interface.
 
 <h1>Features</h1>
+
 * Browse and watch videos
 * Play videos in a video player
 * Display video information (title, description, uploader, views, likes, etc.)
@@ -14,6 +15,7 @@ This project is a YouTube clone implemented using HTML, CSS, and JavaScript. The
 Website Link - https://youtube-kashyap.netlify.app
 
 <h1>Technologies Used</h1>
+
 1. HTML: For creating the structure of the web pages. <br />
 2. CSS: For styling the web pages and making them visually appealing. <br />
 3. JavaScript: For adding interactivity and functionality to the website. <br />
