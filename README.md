@@ -14,16 +14,17 @@ This project is a YouTube clone implemented using HTML, CSS, and JavaScript. The
 Website Link - https://youtube-kashyap.netlify.app
 
 <h1>Technologies Used</h1>
-1. HTML: For creating the structure of the web pages.
-2. CSS: For styling the web pages and making them visually appealing.
-3. JavaScript: For adding interactivity and functionality to the website.
-4. React: Frontend development
-5. Redux: State management
-6. Express: Server
-7. Node: Backend
+1. HTML: For creating the structure of the web pages. <br />
+2. CSS: For styling the web pages and making them visually appealing. <br />
+3. JavaScript: For adding interactivity and functionality to the website. <br />
+4. React: Frontend development <br />
+5. Redux: State management <br />
+6. Express: Server <br />
+7. Node: Backend <br />
 8. MongoDB: Database
 
 <h1>Usage</h1>
+
 * Open the index.html file in your web browser.
 * The homepage will display a list of videos from the YouTube Data API.
 * You can click on any video to watch it. The video will be played in a video player.
