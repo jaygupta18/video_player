@@ -23,7 +23,7 @@ Website Link - https://youtube-kashyap.netlify.app
 7. Node: Backend
 8. MongoDB: Database
 
-<h1>Usage</h1>h1>
+<h1>Usage</h1>
 * Open the index.html file in your web browser.
 * The homepage will display a list of videos from the YouTube Data API.
 * You can click on any video to watch it. The video will be played in a video player.
