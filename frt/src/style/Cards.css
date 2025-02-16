@@ -1,0 +1,90 @@
+.cards {
+   box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    margin: 2px 2px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  .card-container {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid #292a31;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 40px x rgba(77, 24, 24, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .thumbnail-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .info-wrapper {
+    padding: 12px;
+  }
+  
+  .title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .channel-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .author-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .author {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .views-upload {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .views-upload .dot {
+    margin: 0 6px;
+  }
+  
+  .search-description {
+    font-size: 0.85rem;
+    color: #f8eeee;
+    margin-top: 8px;
+  }
+  

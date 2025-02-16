@@ -1,0 +1,119 @@
+.video-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #010101;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-card {
+  width: 90%;
+  max-width: 1200px;
+  background: #0b0a0a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.video-player {
+  width: 100%;
+  height: 60vh;
+  border: none;
+}
+
+.video-details-section {
+  padding: 20px;
+}
+
+.video-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.channel-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.channel-logo-subscribers {
+  display: flex;
+  align-items: center;
+}
+
+.channel-thumbnail {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.channel-metadata {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.channel-subscribers {
+  font-size: 14px;
+  color: #faf8f8;
+}
+
+.subscribe-button {
+  padding: 8px 16px;
+  background-color: #c80c0c;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #ff0000;
+}
+
+.interactions-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.like-icon,
+.dislike-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.actions-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.share-button,
+.options-button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.share-button:hover,
+.options-button:hover {
+  background-color: #f0f0f0;
+  color: #0b0a0a;
+}
+
+.video-description {
+  font-size: 14px;
+  color: #f7f4f4;
+  line-height: 1.5;
+}

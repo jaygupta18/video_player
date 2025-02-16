@@ -1,0 +1,38 @@
+.navigation-menu{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-decoration: none;
+}
+.navigation-menu a{
+  text-decoration: none;
+}
+.menu-section-title{
+  font-weight: bold;
+  margin: 6px 0;
+  font-size: 20px;
+  color: rgb(245, 243, 243);
+}
+
+.menu-link{
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  margin: 3px 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-link svg {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.menu-link span{ 
+  text-decoration: none; 
+}
+
+.menu-link:hover {
+  background-color: #231d1d;
+  border-radius: 7px; 
+}

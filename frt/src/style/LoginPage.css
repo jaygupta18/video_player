@@ -1,0 +1,38 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.tab-container {
+  display: flex;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.login-tab,
+.register-tab {
+  display: none;
+}
+
+.login-tab.active,
+.register-tab.active {
+  display: block; 
+}

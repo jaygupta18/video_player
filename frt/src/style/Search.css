@@ -1,0 +1,10 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    height: 100%;
+  }
+  .side{
+    color: white;
+  }
