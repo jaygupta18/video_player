@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../style/play.css";
+import "../style/Play.css";
 
 export default function VideoPage({
   id,
